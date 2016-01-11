@@ -2,7 +2,7 @@
 #define CONFIG_H
 
 //***** Select your Display and Touchpanel here ******
-#define DISPLAY_TYPE            DISPLAY_800x480 // DISPLAY_800x480 DISPLAY_800x480HY DISPLAY_1024x600HY
+#define DISPLAY_TYPE            DISPLAY_480x272 // DISPLAY_480x272 DISPLAY_800x480 DISPLAY_800x480HY DISPLAY_1024x600HY
 #define TOUCHPANEL_TYPE         TOUCHPANEL_NONE // TOUCHPANEL_NONE TOUCHPANEL_RESISTIVE TOUCHPANEL_FT5x06
 
 /*
@@ -128,7 +128,7 @@
 #define AYP            A0 // touch Y+ PF7
 
 // External EDID EEPROM
-#define EEPROMSIZE 256  // size in bytes
+#define EEPROMSIZE 128  // size in bytes
 #define EEPROMADDR 0x50 // I2C address
 
 #endif //CONFIG_H
